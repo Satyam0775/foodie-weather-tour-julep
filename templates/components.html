@@ -1,0 +1,26 @@
+<!-- Weather Info Template -->
+<div class="weather-card fade-in">
+    <h2>🌇 {city}, {country}</h2>
+    <h1>{temperature}°C</h1>
+    <h3>{description}</h3>
+
+    <div class="weather-stats">
+        <div class="weather-stat">
+            <strong>Feels Like:</strong><br>{feels_like}°C
+        </div>
+        <div class="weather-stat">
+            <strong>Humidity:</strong><br>{humidity}%
+        </div>
+        <div class="weather-stat">
+            <strong>Wind Speed:</strong><br>{wind_speed} m/s
+        </div>
+        <div class="weather-stat">
+            <strong>Rain Probability:</strong><br>{rain_probability}%
+        </div>
+    </div>
+
+    <div style="margin-top: 1rem;">
+        <span class="time-badge">🌅 Sunrise: {sunrise}</span>
+        <span class="time-badge">🌇 Sunset: {sunset}</span>
+    </div>
+</div>
